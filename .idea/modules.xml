@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/platforms/android/CordovaLib/CordovaLib.iml" filepath="$PROJECT_DIR$/platforms/android/CordovaLib/CordovaLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platforms/android/android.iml" filepath="$PROJECT_DIR$/platforms/android/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platforms/android/build/generated/source/buildConfig/armv7/armv7.iml" filepath="$PROJECT_DIR$/platforms/android/build/generated/source/buildConfig/armv7/armv7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platforms/android/build/generated/source/r/armv7/armv71.iml" filepath="$PROJECT_DIR$/platforms/android/build/generated/source/r/armv7/armv71.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/cordova-plugin-background-app/background-activity-lib/background-activity-lib.iml" filepath="$PROJECT_DIR$/plugins/cordova-plugin-background-app/background-activity-lib/background-activity-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platforms/android/cordova-plugin-background-app/cleanCca-background-activity-lib/build/generated/source/buildConfig/buildConfig.iml" filepath="$PROJECT_DIR$/platforms/android/cordova-plugin-background-app/cleanCca-background-activity-lib/build/generated/source/buildConfig/buildConfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platforms/android/CordovaLib/build/generated/source/buildConfig/buildConfig1.iml" filepath="$PROJECT_DIR$/platforms/android/CordovaLib/build/generated/source/buildConfig/buildConfig1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platforms/android/cordova-plugin-background-app/cleanCca-background-activity-lib/cleanCca-background-activity-lib.iml" filepath="$PROJECT_DIR$/platforms/android/cordova-plugin-background-app/cleanCca-background-activity-lib/cleanCca-background-activity-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/cordova-plugin-chrome-apps-bootstrap/src/cordova-plugin-chrome-apps-bootstrap.iml" filepath="$PROJECT_DIR$/plugins/cordova-plugin-chrome-apps-bootstrap/src/cordova-plugin-chrome-apps-bootstrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/cordova-plugin-chrome-apps-filesystem/src/cordova-plugin-chrome-apps-filesystem.iml" filepath="$PROJECT_DIR$/plugins/cordova-plugin-chrome-apps-filesystem/src/cordova-plugin-chrome-apps-filesystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/cordova-plugin-chrome-apps-i18n/src/cordova-plugin-chrome-apps-i18n.iml" filepath="$PROJECT_DIR$/plugins/cordova-plugin-chrome-apps-i18n/src/cordova-plugin-chrome-apps-i18n.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/cordova-plugin-chrome-apps-navigation/src/cordova-plugin-chrome-apps-navigation.iml" filepath="$PROJECT_DIR$/plugins/cordova-plugin-chrome-apps-navigation/src/cordova-plugin-chrome-apps-navigation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/cordova-plugin-chrome-apps-storage/src/cordova-plugin-chrome-apps-storage.iml" filepath="$PROJECT_DIR$/plugins/cordova-plugin-chrome-apps-storage/src/cordova-plugin-chrome-apps-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/cordova-plugin-crosswalk-webview/src/cordova-plugin-crosswalk-webview.iml" filepath="$PROJECT_DIR$/plugins/cordova-plugin-crosswalk-webview/src/cordova-plugin-crosswalk-webview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/cordova-plugin-file/src/cordova-plugin-file.iml" filepath="$PROJECT_DIR$/plugins/cordova-plugin-file/src/cordova-plugin-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/src/cordova-plugin-inappbrowser.iml" filepath="$PROJECT_DIR$/plugins/cordova-plugin-inappbrowser/src/cordova-plugin-inappbrowser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/cordova-plugin-network-information/src/cordova-plugin-network-information.iml" filepath="$PROJECT_DIR$/plugins/cordova-plugin-network-information/src/cordova-plugin-network-information.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/cordova-plugin-statusbar/src/cordova-plugin-statusbar.iml" filepath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/src/cordova-plugin-statusbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/cordova-plugin-whitelist/src/cordova-plugin-whitelist.iml" filepath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/src/cordova-plugin-whitelist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/cordova-plugin-file/tests/src/tests.iml" filepath="$PROJECT_DIR$/plugins/cordova-plugin-file/tests/src/tests.iml" />
+    </modules>
+  </component>
+</project>

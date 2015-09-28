@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="classes3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/platforms/android/cordova-plugin-background-app/cleanCca-background-activity-lib/build/intermediates/bundles/release/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,28 @@
+{
+  "name": "GPS Coord",
+  "description": "GPS Coordinate Retriever",
+  "version": "0.1",
+  "manifest_version": 2,
+  "permissions": ["geolocation", "storage", "unlimitedStorage", "syncFileSystem", {"fileSystem": ["write"]}
+          ],
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+        }
+      },
+  "sockets": {
+        "tcp": {
+            "connect": "localhost:80"
+        },
+        "udp": {
+             "send": "localhost:80"
+        }
+      },
+  "icons": {
+    "16": "assets/icons/Server-16.png",
+    "128": "assets/icons/Server-128.png"
+    },
+
+  "minimum_chrome_version":"28"
+
+}

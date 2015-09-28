@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="debug">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/armv7/debug/classes-b93bc1d3580c7339994b2400bbc4fc5f0c84cc94.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/armv7/debug/classes-de58a7411558ce487c530f1cfac731e45972076c.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/armv7/debug/classes-73fa6d57884f0157243d772a87366c48de1df75f.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
