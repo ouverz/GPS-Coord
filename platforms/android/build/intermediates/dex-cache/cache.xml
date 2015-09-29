@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/oferkulka/DeveloperEnv/chromeApps/cleanCca/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="5716293226170a01cbb1067aff67f9ca297b705d">
+        <dex dex="/Users/oferkulka/DeveloperEnv/chromeApps/cleanCca/platforms/android/build/intermediates/pre-dexed/armv7/debug/classes-b4fb690b417a9aa1f67d39c7f0961746c034e3a2.jar" />
+    </item>
+    <item
+        jar="/Users/oferkulka/DeveloperEnv/chromeApps/cleanCca/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="b18570e0b71c612a93878ac646f80e16166094e0">
+        <dex dex="/Users/oferkulka/DeveloperEnv/chromeApps/cleanCca/platforms/android/build/intermediates/pre-dexed/armv7/debug/classes-3f161e15e21de236cab12392ba715ea2879a8ea6.jar" />
+    </item>
+    <item
+        jar="/Users/oferkulka/DeveloperEnv/chromeApps/cleanCca/platforms/android/build/intermediates/exploded-aar/android.cordova-plugin-background-app/cleanCca-background-activity-lib/unspecified/debug/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="ccb07e842ebe2ead0ea9d71199e64d7d1f5e6f08">
+        <dex dex="/Users/oferkulka/DeveloperEnv/chromeApps/cleanCca/platforms/android/build/intermediates/pre-dexed/armv7/debug/classes-73898490182e6f1c64d34a5e838a403e7125c77c.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,274 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url(/assets/fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+html {
+  height: 100%;
+}
+
+body {
+  box-shadow: 0 0 50px #ddd inset;
+  -webkit-box-shadow: 0 0 50px #ddd inset;
+  font-family: Ubuntu, Helvetica, Arial, sans;
+  height: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+}
+a:active,li:active{color:#849fbb;/*color:#9effc4;*/}
+
+.title{
+  padding: 2.5% 0 3.5% 3.5%;
+  font-size: 18px;
+  background-color: white;/*rgb(55, 55, 55);*/
+  color:#676767;/*color: white;*/
+  box-shadow:-1px 1px 1px rgb(213, 213, 213);
+  border-bottom: 1px solid rgb(218, 216, 216);
+  text-align: left;
+  /*
+  font-weight: 800;
+  line-height: 22px;
+  text-shadow: -2px 1px 10px rgb(34, 34, 34);
+  border-bottom:1px solid rgb(50,50,50);
+  */
+}
+.menu-icon{
+  float: right;
+  padding: 0 2%;
+  border-radius: 2px;
+  margin: 0 2% 0 2%;
+  text-decoration: none;
+  /*
+  border: 1px solid grey;
+  color:rgb(190, 23, 23);
+  */
+}
+
+ul {
+  -webkit-margin-before: 0;
+  -webkit-padding-start: 0px;
+  list-style: none;
+}
+
+li {
+  list-style: none;
+  height: 22px;
+  position:relative;
+  padding: 5%;
+  line-height: 26px;
+  border-bottom: 1px solid #CACACA;
+  font-size: 14px;
+  font-weight: 800;
+  width:80%;
+  margin: 0 auto;
+  /*font-family: 'Oswald', sans-serif;*/
+  }
+footer{
+  display: inline;
+    height: 20px;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    color:#676767;
+    box-shadow: -1px 1px 1px rgb(213, 213, 213);
+    border-top: 1px solid rgb(218, 216, 216);
+    font-size: 80%;
+    opacity: 0.8;
+}
+
+.errormsg{
+  color:red;
+}
+.cordsIcon, .exportIcon{
+  /*float: left;
+  /*width:32px;
+  height:100%;
+  background-repeat:no-repeat;
+  background-position-x: 10px;
+  background-position-y: 10px;
+  */
+}
+
+.cordsIcon {
+  background-image:url('/assets/icons/gps-icon-36.png');
+  background-repeat: no-repeat;
+  /*background-image:url('/assets/icons/icon1033.png');*/
+}
+
+.exportIcon {
+  background-image:url('/assets/icons/download-icon-36.png');
+  background-repeat: no-repeat;
+  /*background-image:url('/assets/icons/icon1086.png');*/
+}
+
+
+#settings{
+  display:block;
+  /*
+  margin-top:10px;
+  background-color: rgb(225, 225, 225);
+  */
+}
+/**
+ * On/off switch
+ */
+.fh-switch,.fh-switch-2 {
+  position: relative; }
+
+.fh-switch > [type="checkbox"]:checked,
+.fh-switch > [type="checkbox"]:not(:checked),
+.fh-switch-2 > [type="checkbox"]:checked,
+.fh-switch-2 > [type="checkbox"]:not(:checked)
+ {
+  width: 0;
+  height: 0;
+  display: none;
+  opacity: 0; 
+}
+  .fh-switch > [type="checkbox"]:checked + label,
+  .fh-switch > [type="checkbox"]:not(:checked) + label, 
+  .fh-switch-2 > [type="checkbox"]:checked + label,
+  .fh-switch-2 > [type="checkbox"]:not(:checked) + label
+  {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 7px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-right: 60px; }
+
+    .fh-switch > [type="checkbox"]:checked + label:after,
+    .fh-switch > [type="checkbox"]:not(:checked) + label:after,
+    .fh-switch-2 > [type="checkbox"]:checked + label:after,
+    .fh-switch-2 > [type="checkbox"]:not(:checked) + label:after 
+    {
+      content: "";
+      top: 2px;
+      right: 10px;
+      width: 30px;
+      height: 12px;
+      position: absolute;
+      border-radius: 30px; }
+
+    .fh-switch > [type="checkbox"]:checked + label + .fh-switch-knob,
+    .fh-switch > [type="checkbox"]:not(:checked) + label + .fh-switch-knob,
+    .fh-switch-2 > [type="checkbox"]:checked + label + .fh-switch-knob,
+    .fh-switch-2 > [type="checkbox"]:not(:checked) + label + .fh-switch-knob
+    {
+      top: -2px;
+      width: 20px;
+      height: 20px;
+      border-radius: 30px;
+      display: inline-block;
+      position: absolute;
+      cursor: pointer;
+      pointer-events: none;
+      box-shadow: 1px 1px 1px #dddddd;
+      -webkit-transition: right .1s ease-in, background-color .1s ease-in;
+      -moz-transition: right .1s ease-in, background-color .1s ease-in;
+      -o-transition: right .1s ease-in, background-color .1s ease-in;
+      -ms-transition: right .1s ease-in, background-color .1s ease-in; }
+  .fh-switch > [type="checkbox"]:checked:focus + label:after, .fh-switch > [type="checkbox"]:checked:focus + label + .fh-switch-knob,
+  .fh-switch > [type="checkbox"]:not(:checked):focus + label:after,
+  .fh-switch > [type="checkbox"]:not(:checked):focus + label + .fh-switch-knob,
+  .fh-switch-2 > [type="checkbox"]:checked:focus + label:after, .fh-switch-2 > [type="checkbox"]:checked:focus + label + .fh-switch-knob,
+  .fh-switch-2 > [type="checkbox"]:not(:checked):focus + label:after,
+  .fh-switch-2 > [type="checkbox"]:not(:checked):focus + label + .fh-switch-knob 
+  {
+    box-shadow: 0 0 6px 0 #6fb5fb; }
+    
+  .fh-switch > [type="checkbox"]:checked[disabled] + label, .fh-switch > [type="checkbox"]:checked[disabled] + label:after, .fh-switch > [type="checkbox"]:checked[disabled] + label + .fh-switch-knob,
+  .fh-switch > [type="checkbox"]:not(:checked)[disabled] + label,
+  .fh-switch > [type="checkbox"]:not(:checked)[disabled] + label:after,
+  .fh-switch > [type="checkbox"]:not(:checked)[disabled] + label + .fh-switch-knob,
+  .fh-switch-2 > [type="checkbox"]:checked[disabled] + label, .fh-switch-2 > [type="checkbox"]:checked[disabled] + label:after, .fh-switch-2 > [type="checkbox"]:checked[disabled] + label + .fh-switch-knob,
+  .fh-switch-2 > [type="checkbox"]:not(:checked)[disabled] + label,
+  .fh-switch-2 > [type="checkbox"]:not(:checked)[disabled] + label:after,
+  .fh-switch-2 > [type="checkbox"]:not(:checked)[disabled] + label + .fh-switch-knob {
+
+    cursor: not-allowed;
+    opacity: 0.4; }
+
+.fh-switch > [type="checkbox"]:checked + label:after,
+.fh-switch-2 > [type="checkbox"]:checked + label:after  {
+  background-color: #dddddd; }
+
+.fh-switch > [type="checkbox"]:not(:checked) + label:after,
+.fh-switch-2 > [type="checkbox"]:not(:checked) + label:after {
+  background-color: #dddddd; }
+
+.fh-switch > [type="checkbox"]:checked + label + .fh-switch-knob,
+.fh-switch-2 > [type="checkbox"]:checked + label + .fh-switch-knob {
+  right: 5px;
+  background-color: #57cb85; }
+
+.fh-switch > [type="checkbox"]:not(:checked) + label + .fh-switch-knob,
+.fh-switch-2 > [type="checkbox"]:not(:checked) + label + .fh-switch-knob {
+  right: 25px;
+  background-color: #849fbb; }
+
+label{
+  font:inherit;
+}
+
+
+.container {
+    height:100%;
+    position: relative;
+    overflow: hidden;
+    /*background: #F3FF5C;*/
+} 
+.container img {
+    height:100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 0.6;
+    /*
+    height: auto;
+    z-index: 1;
+    */
+}
+
+.options li{
+  font-size:12px;
+  line-height: 14px;
+  padding:2.5%;
+  height:inherit;
+  text-align: left;
+}
+/*.container {
+    position: relative;
+   /* background: #5C97FF;
+    overflow: hidden;
+}
+/* You could use :after - it doesn't really matter 
+.container:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url('/assets/icons/sonnen.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+*/

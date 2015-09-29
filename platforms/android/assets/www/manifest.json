@@ -1,0 +1,42 @@
+{
+    "name": "GPS Coord",
+    "description": "GPS Coordinate Retriever",
+    "version": "0.1",
+    "manifest_version": 2,
+    "permissions": [
+        "geolocation",
+        "storage",
+        "unlimitedStorage",
+        "syncFileSystem",
+        "identity"
+    ],
+    "oauth2": {
+        "client_id": "....apps.googleusercontent.com",
+        "scopes": [
+            "https://www.googleapis.com/auth/drive"
+        ]
+    },
+    "app": {
+        "background": {
+            "scripts": [
+                "background.js"
+            ]
+        }
+    },
+    "sockets": {
+        "tcp": {
+            "connect": "localhost:80"
+        },
+        "udp": {
+            "send": "localhost:80"
+        }
+    },
+    "icons": {
+        "16": "assets/icons/Server-16.png",
+        "128": "assets/icons/Server-128.png"
+    },
+    "minimum_chrome_version": "28",
+    "packageId": "com.your.company.cleanCca",
+    "android": {},
+    "ios": {}
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> GPS Coordinates </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css" type="text/css"/>
+  </head>
+  <body>
+    <div class="title">
+      <!-- Menu "Icon"-->
+      <!--<a href="#" class="menu-icon"> &#9776;</a>-->
+      GPS CORDS</div>
+    <div class="container">
+     <!-- <img src="/assets/icons/sonnen.jpg"/>-->
+
+    <ul id="bulk">
+      <!-- Changed li div structure -->
+      <a href="#">
+      <li id="getCords" class="cordsIcon">
+        Find My Coordinates
+      </li>
+     </a>
+     <a href="#">
+      <li id="saveToDisk" class="cordsIcon">
+        Save to File
+      </li>
+     </a>
+     <a href="#">
+     <li id="exportToDisk" class="exportIcon"><a href="#">
+       Export to File
+    </li>
+    </a>
+  </ul>
+     <input type="text" id="data"></br>
+     <button id="write">write data</button>
+     <button id="read">read data</button>
+
+    <p id="cords"></p><br/>
+    <div id="status"></div>
+
+    <span class="fh-switch">
+      <input type="checkbox" id="switch-id-1" name="myswitch">
+      <label for="switch-id-1">Settings</label></input>
+      <span class="fh-switch-knob"></span>
+    </span>
+    <div id="settings" style="display:none;">
+         <form>   
+        <ul class="options">
+          <!--<li>Change Default Dir</li>-->
+          <li style="border-bottom: 2px solid grey;line-height:16px;padding:2.5% 2.5% 0.5% 2.5%">GPS TRACKER</li>
+          <li> Track GPS <br>
+                <span class="fh-switch-2" style="line-height:10px;">
+                  <input type="checkbox" id="switch-id-2" name="tracker" class="checked">
+                  <label style="font-size:85%; color: #8E8D8D;padding-right:145px;" for="switch-id-2">On/Off</label></input>
+                  <span class="fh-switch-knob"></span>
+                </span>
+          </li>
+          <li>Tracker Interval <br>
+       
+            <label style="font-size: 85%;color: #8E8D8D;">
+             Retrieval Interval (Sec):
+            </label>
+            <input type="textbox" id="tracksec" target="_blank" min="1" max="1000" style="width:32px;height:20px; margin-left:30px"/>
+          
+          </li>
+        </ul>
+</form>
+    </div>
+      
+
+  </div>
+  <footer>Ofer Kulka @ Copyright 2015</footer>
+  </body>
+  <script type="text/javascript" src="/assets/js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.savefile.js"></script>
+  <script type="text/javascript" src="assets/js/exportToDisk.js"></script>
+  <script type="text/javascript" src="assets/js/geoloc.js"></script>
+  <script type="text/javascript" src="assets/js/socket.js"></script>
+  <script type="text/javascript" src="assets/js/menu.js"></script>
+  <script type="text/javascript" src="assets/js/down.js"></script>
+  
+</html>

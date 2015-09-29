@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> GPS Coordinates </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css" type="text/css" />
+  </head>
+  <body>
+    <div class="title"><a href="#" class="menu-icon"> &#9776;</a>GPS Coordinates</div>
+    <div>Settings Page</div>
+      <a href="settings.html"> Settings </a>
+      
+
+    <ul id="bulk">
+      <!-- Changed li div structure -->
+      <a href="#">
+      <li id="getCords" class="cordsIcon">
+        Find My Coordinates
+      </li>
+     </a>
+     <a href="#">
+     <li id="exportToDisk" class="exportIcon"><a href="#">
+       Export to File
+    </li>
+    </a>
+  </ul>
+    <p id="cords"></p><br/>
+    <div id="status"></div>
+
+  </body>
+  <script type="text/javascript" src="assets/js/export.js"></script>
+  <script type="text/javascript" src="assets/js/geoloc.js"></script>
+  <script type="text/javascript" src="assets/js/socket.js"></script>
+  <!--
+  <script type="text/javascript" src="assets/js/store.js"></script>
+  <script type="text/javascript" src="assets/js/controller.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+  <script type="text/javascript" src="assets/js/helpers.js"></script>
+  <script type="text/javascript" src="assets/js/model.js"></script>
+-->
+</html>

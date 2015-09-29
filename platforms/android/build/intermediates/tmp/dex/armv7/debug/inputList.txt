@@ -1,0 +1,4 @@
+/Users/oferkulka/DeveloperEnv/chromeApps/cleanCca/platforms/android/build/intermediates/classes/armv7/debug
+/Users/oferkulka/DeveloperEnv/chromeApps/cleanCca/platforms/android/build/intermediates/pre-dexed/armv7/debug/classes-73898490182e6f1c64d34a5e838a403e7125c77c.jar
+/Users/oferkulka/DeveloperEnv/chromeApps/cleanCca/platforms/android/build/intermediates/pre-dexed/armv7/debug/classes-b4fb690b417a9aa1f67d39c7f0961746c034e3a2.jar
+/Users/oferkulka/DeveloperEnv/chromeApps/cleanCca/platforms/android/build/intermediates/pre-dexed/armv7/debug/classes-3f161e15e21de236cab12392ba715ea2879a8ea6.jar
