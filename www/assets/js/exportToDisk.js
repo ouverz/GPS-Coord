@@ -255,17 +255,17 @@ function tracker(){
       // not function properly - need to recheck
 //*****************************************************//
 
-function clearStorage(){
-    chrome.storage.sync.clear();
-    chrome.local.storage.clear();
-    console.log('cleared mem');
+// function clearStorage(){
+//     chrome.storage.sync.clear();
+//     chrome.local.storage.clear();
+//     console.log('cleared mem');
       
-}
+// }
   // Event Listener - Sync entire Cords array to Google Drive
   document.getElementById('exportToDisk').addEventListener('click', doExportToDisk);
   
   // Event Listener - clear chrome local storage
-  document.getElementById('clear').addEventListener('click', clearStorage);
+  // document.getElementById('clear').addEventListener('click', clearStorage);
   
   // Export to default file without append 
   //document.getElementById('saveToDisk').addEventListener('click', doExportToDisk2);
